@@ -1,0 +1,157 @@
+@media (max-width: 991.98px) {
+  .navbar {
+    padding: 15px;
+  }
+
+  #navbarNav {
+    background-color: #fff;
+    padding-top: 10px;
+  }
+
+  #navbarNav a {
+    margin-left: 0;
+    display: block;
+    padding: 10px 0;
+    border-bottom: none;
+    transition: none;
+  }
+
+  #navbarNav a:hover {
+    border-bottom: none;
+    font-weight: bold;
+    color: #2e4e92;
+    padding-bottom: 10px;
+  }
+
+  #container1 {
+    padding: 50px 15px;
+  }
+
+  #main-text h1 {
+    font-size: 36px;
+    line-height: 48px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+  }
+
+  #main-text p {
+    font-size: 16px;
+    line-height: 24px;
+    padding-bottom: 30px;
+  }
+
+  #main-text button {
+    width: 160px;
+    height: 50px;
+    font-size: 14px;
+  }
+
+  .col {
+    flex-basis: 100%;
+    max-width: 100%;
+  }
+
+  #container3 .col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #card-image {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+  }
+
+  #description p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    line-height: 3;
+    font-size: 22;
+    padding-right: 0px;
+  }
+
+  #left-side{
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 1400px) {
+
+  #container3 .col-md-4,
+  #container3 .col-lg-4 {
+    flex-basis: 100%;
+    max-width: 100%;
+  }
+
+  #container3 .col {
+    flex-basis: 100%;
+    max-width: 100%;
+  }
+
+  #card-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media (max-width: 300px) {
+  #container3 .col {
+    flex-basis: 100%;
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 602px) {
+
+  body {
+    text-align: center;
+  }
+
+  #container4,
+  #container5,
+  #container6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 100px;
+  }
+
+  #block1-text h1,
+  #block2-text h1,
+  #block3-text h1 {
+    font-size: 24px;
+    margin: 20px 0;
+  }
+
+  #block1-text h1::after,
+  #block2-text h1::after,
+  #block3-text h1::after {
+    display: none;
+  }
+
+  #block1-text p,
+  #block2-text p,
+  #block3-text p {
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+
+  #container4 button,
+  #container5 button,
+  #container6 button {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    font-size: 12px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+  }
+}
